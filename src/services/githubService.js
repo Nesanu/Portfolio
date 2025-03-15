@@ -1,5 +1,5 @@
 const BASE_URL = "https://api.github.com";
-const githubUsername = import.meta.env.VITE_GITHUB_USERNAME;
+const githubUsername = "Nesanu";
 
 /**
  * Fonction utilitaire pour effectuer un appel GET générique

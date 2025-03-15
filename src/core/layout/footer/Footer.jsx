@@ -9,11 +9,11 @@ const Footer = () => {
             <p>&copy; {new Date().getFullYear()} - Nicoleta Esanu-Desbois - Mon Portfolio </p>
             <div className={styles.social}>
                     <FontAwesomeIcon icon={faLinkedin} />
-                <a href="www.linkedin.com/in/nicoleta-esanu-45b24440" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/nicoleta-esanu-45b24440/" target="_blank">
                     <i className="fab fa-linkedin"></i>
                     </a>
                     <FontAwesomeIcon icon={faGithub} />
-                <a href="https://github.com/Nesanu/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Nesanu/" target="_blank" >
                     <i className="fab fa-github"></i>
                 </a>
             </div>
