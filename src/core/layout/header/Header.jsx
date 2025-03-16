@@ -63,7 +63,7 @@ return (
                 </li>
             </ul>
             <a
-                href="/assets/document/cv.pdf"
+                href="src/assets/document/cv.pdf"
                 download="cv.pdf"
                 className={styles.download_link}
             >
