@@ -1,12 +1,16 @@
 import { useState } from "react";
 import styles from "./Contact.module.scss";
+import EmailJsService from "../../services/emailJsService.js";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
         name: "",
+        firstname: "",
         email: "",
         message: "",
     });
+
+    const {sendEmail} = EmailJsService;
 
     const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -17,14 +21,20 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Remplacez ce code par l'intégration avec emailJS plus tard
         console.log("Form Data Submitted:", formData);
-        setIsSubmitted(true);
-        // Réinitialiser le formulaire après envoi
-        setFormData({
-            name: "",
-            email: "",
-            message: "",
+        sendEmail(formData).then((response) => {
+            console.log("EmailJS Response:", response);
+        }).catch((error) => {
+            console.error("EmailJS Error:", error);
+        }).finally(() => {
+            setIsSubmitted(true);
+            // Réinitialiser le formulaire après envoi
+            setFormData({
+                name: "",
+                email: "",
+                message: "",
+                firstname: "",
+            });
         });
     };
 
@@ -51,12 +61,12 @@ const Contact = () => {
                     </div>
                     {/* Prénom */}
                     <div className={styles.formGroup}>
-                        <label htmlFor="surname">Prénom</label>
+                        <label htmlFor="firstname">Prénom</label>
                         <input
                             type="text"
-                            id="surname"
-                            name="surname"
-                            value={formData.surname}
+                            id="firstname"
+                            name="firstname"
+                            value={formData.firstname}
                             onChange={handleChange}
                             placeholder="Votre prénom"
                             required
