@@ -1,5 +1,5 @@
 import styles from "./Error-pages.module.scss";  
-import { Link } from "react-router-dom";
+import { Link, useRouteError } from "react-router-dom";
 
   /**
    * @module ErrorPage
@@ -9,8 +9,9 @@ import { Link } from "react-router-dom";
    * @example
    * <ErrorPage />
     */
-export default function ErrorPage({context}) {
-
+export default function ErrorPage() {
+  const error = useRouteError();
+  console.error(error);
   return (
     <section className={styles.errorPage}>
       <h1 className={styles.errorTitle}>Page indisponible</h1>
@@ -21,7 +22,7 @@ export default function ErrorPage({context}) {
         className={styles.errorImage} 
       />
       <p className={styles.errorMessage}>
-        {!context ? "Oups! La page que vous demandez n'existe pas. Veuillez vérifier" : context}
+      {error.status === 404 ? "Le projet n'existe pas." : "Une erreur inattendue s'est produite."}
       </p>
       <Link to="/" className={styles.errorRedirection}>
         Retourner sur la page d'accueil

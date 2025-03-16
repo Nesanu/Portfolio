@@ -52,7 +52,7 @@ export const routes = createBrowserRouter([
         loader: projetLoader,
         errorElement: ( //Crée une page spécifique d'erreur si le projet n'existe pas
             <Layout>
-                <ErrorPage context="Le projet que vous rechercher n'existe pas"/> 
+                <ErrorPage /> 
             </Layout>
         )
     },
