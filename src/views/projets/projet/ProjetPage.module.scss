@@ -92,9 +92,11 @@
     border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
-
+    opacity: 1;
+    transition: opacity 0.3s ease, background-color 0.3s ease;
     &:hover {
       background-color: #f0a500;
+      opacity: 0.8;
     }
   }
 }
@@ -129,9 +131,11 @@
       border-radius: 10px;
       font-size: 0.9rem;
       cursor: pointer;
+      transition: opacity 0.3s ease, background-color 0.3s ease;
       &:hover {
         background-color: #006699;
         color: #fff;
+        opacity: 0.8;
       }
     }
   }
