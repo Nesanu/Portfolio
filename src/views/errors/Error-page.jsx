@@ -21,7 +21,7 @@ export default function ErrorPage() {
         className={styles.errorImage} 
       />
       <p className={styles.errorMessage}>
-      {error && error.status === 404 ? "Le projet n'existe pas." : "Une erreur inattendue s'est produite."}
+      {error && error?.status === 404 ? "Le projet n'existe pas." : "Une erreur inattendue s'est produite."}
       </p>
       <Link to="/" className={styles.errorRedirection}>
         Retourner sur la page d'accueil
