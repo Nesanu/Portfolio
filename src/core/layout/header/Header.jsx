@@ -63,7 +63,7 @@ return (
                 </li>
             </ul>
             <a
-                href="/assets/document/cv.pdf"
+                href={import.meta.env.VITE_PUBLIC_URL + "/assets/document/cv.pdf"}
                 download="cv.pdf"
                 className={styles.download_link}
             >
