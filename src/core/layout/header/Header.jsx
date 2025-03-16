@@ -18,6 +18,7 @@ return (
                 alt="Nicoleta profil"
                 className={styles.nav_header_img}
             />
+            <h1 className={styles.title}>Développeuse Web Junior</h1>
         </div>
         <nav className={styles.nav}>
             <ul>
