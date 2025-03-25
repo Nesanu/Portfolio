@@ -36,7 +36,7 @@ export default function About() {
 		{
 			"id": "5",
 			"title": "Mes objectifs",
-			"content": "À court terme, mon objectif est d’achever ma formation et d’intégrer une entreprise, une ESN ou une startup. Je souhaite rejoindre une équipe de passionnés qui me permettra de développer aussi bien mes compétences techniques que mes aptitudes transversales. Sur le long terme, je vise à devenir une spécialiste du front en particulier des API et à maîtriser des frameworks comme Angular et d'autres langages comme Ruby. Je suis actuellement en recherche active d’un poste de développeuse web junior."
+			"content": "À court terme, mon objectif est d’achever ma formation et d’intégrer une entreprise, une ESN ou une startup. Je souhaite rejoindre une équipe de passionnés qui me permettra de développer aussi bien mes compétences techniques que mes aptitudes transversales. Sur le long terme, je vise à devenir une spécialiste du front en particulier des API et à maîtriser des frameworks comme Angular et d'autres langages comme Ruby. Je suis actuellement en recherche active d’un poste de Développeuse Web."
 		}
 	]
  /**Documentation de méthode 
