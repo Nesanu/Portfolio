@@ -18,13 +18,13 @@ const Home = () => {
 
       <div className={styles.homeContent}>
         <h1 className="title">Bienvenue sur mon portfolio!</h1>
-        <p>Je suis Nicoleta Esanu-Desbois, développeuse web junior.</p>
+        <p>Je suis Nicoleta Esanu-Desbois, Développeuse Web Junior.</p>
         <p>
-          Après une expérience professionnelle de 19 ans dans le secteur de
+          Après une expérience professionnelle de 17 ans dans le secteur de
           l'administration des ventes, du commerce et de l'export, j'ai décidé de
           me reconvertir dans le développement web. J'ai suivi une formation
-          intensive au sein de l'organisme de formation Openclassrooms, reconnu
-          pour la qualité et le sérieux des formations professionnelles, ainsi que pour sa
+          intensive et professionnalisante au sein de l'organisme de formation Openclassrooms, reconnu
+          pour la qualité et le sérieux de ses formations professionnelles, ainsi que pour sa
           belle notoriété dans le monde des formations digitales.{" "}
         </p>
         <p>

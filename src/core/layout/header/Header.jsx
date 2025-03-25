@@ -29,7 +29,7 @@ return (
                             isActive ? styles.active : undefined
                         }
                     >
-                        Home
+                        Accueil
                     </NavLink>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ return (
                             isActive ? styles.active : undefined
                         }
                     >
-                        About
+                       À propos
                     </NavLink>
                 </li>
                 <li>
