@@ -18,7 +18,7 @@ const Home = () => {
 
       <div className={styles.homeContent}>
         <h1 className="title">Bienvenue sur mon portfolio!</h1>
-        <p>Je suis Nicoleta Esanu-Desbois, Développeuse Web Junior.</p>
+        <p>Je suis Nicoleta Esanu-Desbois, Développeuse Web.</p>
         <p>
           Après une expérience professionnelle de 17 ans dans le secteur de
           l'administration des ventes, du commerce et de l'export, j'ai décidé de

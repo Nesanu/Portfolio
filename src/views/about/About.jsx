@@ -16,7 +16,7 @@ export default function About() {
 		{
 			"id": "1",
 			"title": "Formation et expériences",
-			"content": "Après 19 années d’expérience dans l’administration des ventes, le commerce et l’export, où j’ai exercé en tant que gestionnaire et commerciale export au sein de plusieurs entreprises, j’ai choisi d’opérer une transition vers le développement web. Cette reconversion professionnelle s’est concrétisée par une formation intensive professionnalisante dispensée par OpenClassrooms, un organisme réputé pour la rigueur et la qualité de ses parcours pédagogiques, ainsi que pour sa solide réputation dans le domaine de la formation numérique. Cette formation m’a permis d’acquérir des compétences solides en développement web, et de me spécialiser dans le front-end."
+			"content": "Après 17 années d’expérience dans l’administration des ventes, le commerce et l’export, où j’ai exercé en tant que gestionnaire et commerciale export au sein de plusieurs entreprises, j’ai choisi d’opérer une transition vers le développement web. Cette reconversion professionnelle s’est concrétisée par une formation intensive professionnalisante dispensée par OpenClassrooms, un organisme réputé pour la rigueur et la qualité de ses parcours pédagogiques, ainsi que pour sa solide réputation dans le domaine de la formation numérique. Cette formation m’a permis d’acquérir des compétences solides en développement web, et de me spécialiser dans le front-end."
 		}, 
 		{
 			"id": "2",
